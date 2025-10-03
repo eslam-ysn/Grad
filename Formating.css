@@ -1,0 +1,19 @@
+.main {
+    background-image: url("img1.png");
+    background-size: cover;
+    padding: 5px;
+    margin: 10px;
+
+    
+    
+}
+
+.textarea {
+    background-color:rgba(255,255,255, 60%); /*white color with transperancy equal 60%*/
+      width: 100%;         /* take full width of parent */
+  max-width: 600px;    /* don’t get too wide on large screens */
+  min-width: 250px;    /* don’t shrink too much on small screens */
+  height: 150px;       /* fixed height (can be adjusted) */
+  box-sizing: border-box; /* includes padding/border in width */
+    resize: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!--instruction for the browser indicated html version 5, not part of html program,
+determine rendaring mode which is: standard mode when using doctype html,
+ quirk mode without using this command-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Express your opinion</title>
+    <link rel="stylesheet" href="Formating.css"/> <!-- external style Css -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--width=device-width → sets 
+    the page width equal to the screen width of the device.
+    initial-scale=1 → sets the initial zoom level (1 = 100%, no zoom).-->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous"> <!--bootstrap source-->
+
+</head>
+<body>
+    <div class="main">
+        <form action="" method="post"><!--Action: where to send the collected date-->
+            <label for="opinion">Express your opinion bellow:</label>
+            <br>
+            <textarea name="opinion" required placeholder="please share your thoughts" class="textarea"></textarea>
+            <br>
+            <button type="button" class="SubmitButton">Submit</button>
+
+        </form>
+
+        <hr>
+        <a href="OurGradProject.AboutUs.github.com" title="A brief overall about this project " target="_blank">About Us </a>
+    
+        <a href="https://mail.google.com/mail/?view=cm&to=eslamyasen2@gmail.com" target="_blank">Contact Us</a>
+    </div>
+
+</body>
+</html>
